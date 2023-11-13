@@ -1,8 +1,8 @@
-import Canvas from './canvas/Canvas'
-import Caustomizer from './pages/Caustomizer'
-import Home from './pages/Home'
 
-import './App.css'
+import Customizer  from './pages/Customizer '
+import Home from './pages/Home'
+import Canvas from './canvas';
+
 
 function App() {
 
@@ -11,8 +11,8 @@ function App() {
     <>
       <main className="app-transition-all ease-in">
        <Home/>
-       <Canvas/>
-       <Caustomizer/>
+       <Canvas />
+       <Customizer />
       </main>
     </>
   )
