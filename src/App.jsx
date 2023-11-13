@@ -1,5 +1,5 @@
 
-import Customizer  from './pages/Customizer '
+import Customizer  from './pages/Customizer'
 import Home from './pages/Home'
 import Canvas from './canvas';
 
